@@ -1,9 +1,13 @@
-import styles from "./Button.module.css"
+import styles from "./button.module.css"
 
-function Button(){
+function Button({texto}){
     return(
     <>
-    <h1>deu bom</h1>
+
+        <button className={styles.button}>{texto}</button>
+ 
     </>
-    )
+    );
 }
+
+export default Button
