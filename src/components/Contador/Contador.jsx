@@ -19,7 +19,7 @@ function Contador(){
 
     const sortear = () =>{
 
-        return Math.random() * (100 - 1) + 1;
+        setNum (Math.floor(Math.random() * (100 - 1) + 1));
     }
 
     
