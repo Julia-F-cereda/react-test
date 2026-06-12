@@ -22,6 +22,10 @@ function Contador(){
         setNum (Math.floor(Math.random() * (100 - 1) + 1));
     }
 
+    // const negativo = () =>{
+    //     setNum(numero < 0)
+    // }
+
     
 
     return(
