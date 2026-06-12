@@ -1,10 +1,12 @@
+
 .botao{
     width: 100vw;
-    height: 80vh;
+    height: 100vh;
     background-color: rgb(255, 218, 224);
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
   
 }
 .reiniciar{
@@ -50,5 +52,17 @@
     justify-content: center;
     align-items: center;
     font-size: 80px;
-    height: 20vh;
+    height: 100%;
 }
+
+.valorpos{
+    color: green;
+
+
+}
+
+.valorneg{
+    color: red;
+
+}
+
