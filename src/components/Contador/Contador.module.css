@@ -66,3 +66,21 @@
 
 }
 
+.botaoIniciar{
+    border-radius: 20px;
+    width: 150px;
+    height: 100px;
+    border: none;
+    gap: 20px;
+    background-color: rgb(233, 0, 0);
+ 
+}
+
+.botaoParar{
+     background-color: rgb(158, 221, 129);
+    border-radius: 20px;
+    width: 150px;
+    height: 100px;
+    border: none;
+    gap: 20px;
+}
