@@ -1,11 +1,14 @@
 import { useState } from "react";
 import styles from "./ConsultaApiBtn.module.css";
-import Swal from 'sweetalert2'
 
-export default function ConsultaApiBtn() {
+
+export default function ConsultaApiBtnSa() {
     const [usuarios, setUsuarios] = useState([])
     const [carregando, setCarregando] = useState(false)
     const [erro, setErro] = useState("")
+
+   
+
 
     async function buscarUsuarios() {
         // resetamos os estados
@@ -45,6 +48,7 @@ export default function ConsultaApiBtn() {
             // tratar falhas de rede
             if (error.message === "Failed to fetch" || !navigator.onLine) {
                 setErro("Não foi possivel conectar a servidor. Verifique sua internet.");
+        
 
                 // se o fetch falhar por culpa do servidor, cai no else e atualiza p estado e manda uma mensagem.
                 // se falhar por falta de internet no if ele exibe msg offiline
